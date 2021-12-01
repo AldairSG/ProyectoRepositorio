@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E2_Santiago_Garcia</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Aldair Santiago García">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+
+	<link type="text/css" rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+	<div class="parte1">
+		<div class="centro">
+
+			<img class="imga" src="imagenesAldair/aldair.jpg">
+			<h2>Aldair Santiago García</h2>
+			<h6>Estudiante en Licenciatura en Ingeniería de Software</h6>
+
+		</div> <!--FIN class="centro"-->
+		
+		<ul>
+			<div class="centro">
+				<li><button class="menuboton">Acerca de mi</button></li>
+				<li><button class="menuboton">Conocimiento</button></li>
+				<li><button class="menuboton">Mis trabajos</button></li>
+				<li><a href="pelicula.html"><button class="menuboton">Peliculas</button></a></li>
+				<li><button class="menuboton">Contacto</button></li>
+				<br><br>
+				<a href="https://www.facebook.com/aldair.santiagogarcia/" target="_blank" title ="facebook"><button class="botonredes"><i class="fab fa-facebook-f"></i>&nbsp;</button></a>
+                <a href="https://twitter.com/SkyoneffyAldair" target="_blank" title="twitter"><button class="botonredes"><i class="fab fa-twitter"></i>&nbsp;</button></a>
+                <a href="https://www.linkedin.com/login/es" target="_blank" title="linkedin"><button class="botonredes"><i class="fab fa-linkedin-in"></i>&nbsp;</button></a>
+                <button class="botonredes" title="reagate"><i class="far fa-circle"></i>&nbsp;</button>
+                <a href="https://dashboard.rss.com/es/auth/sign-in/" target="_blank" title="rss"><button class="botonredes"><i class="fas fa-rss"></i>&nbsp;</button></a>
+			</div> <!--FIN class="centro"-->
+		</ul>
+			
+	</div><!--FIN class="parte1"-->
+	
+	<script src="https://kit.fontawesome.com/f24051bb43.js" crossorigin="anonymous"></script>
+
+	<div class="parte2">
+		
+		<div id="pelicula" >
+            <div class="centro">
+				<h1>Películas</h1>
+                <hr class="red"> <!--rallita roja-->
+                <p>Les presento mi top 5 de peliculas favoritas</p>
+                <button class="botonagregar" id = 'botonAg'><i id="ADD" class="fas fa-plus-square"></i>&nbsp;</button>
+                <button class="botonborrar" id = 'botonBo'><i id="delete" class="fas fa-backspace"></i>&nbsp;</button>
+			</div><!--Fin class="centro"-->
+        </div><!--Fin class="pelicula"-->
+
+        <div class="tablaImagenes">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Top</th>
+                        <th>Pelicula</th>
+                        <th>Calificación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="fila" id="fila_1">
+                        <td>1</td>
+                        <td>Matrix</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class="fila" id="fila_2">
+                        <td>2</td>
+                        <td>Blade Runner</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class="fila" id="fila_3">
+                        <td>3</td>
+                        <td>Interlestar</td>
+                        <td>9.5</td>
+                    </tr>
+                    <tr class="fila" id="fila_4">
+                        <td>4</td>
+                        <td>Watchmen</td>
+                        <td>9</td>
+                    </tr>
+                    <tr class="fila" id="fila_5">
+                        <td>5</td>
+                        <td>Harry potter</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+            </table>
+        <div class="imapeli">
+            <center id="centerImagen">
+                <h3>Matrix</h3>
+                <img class="peli-ima" id="pelicam" src="imagenes/Matrix.jpg">
+            </center>
+        </div>
+        </div>
+		
+	</div> <!--class="parte2"-->
+	
+	<script type="text/javascript" src="js/java.js"></script>
+</body>
+</html>	
